@@ -27,4 +27,4 @@ for (time <- merged.take(5)) {
 check out [TODO](TODO.md), or search for TODO or FIXME
 
 ## authors
-Moses Nakamura - @mosesn
+Moses Nakamura - [mosesn](https://github.com/mosesn)
