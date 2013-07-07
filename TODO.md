@@ -10,3 +10,8 @@
 
 ## super boring but important
 1. publish
+
+## things that Pattern.scala suggested
+1. make periodic things easy
+2. specify starting time separately
+3. specify ending time separately
