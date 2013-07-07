@@ -3,6 +3,7 @@ package com.mosesn.sundial
 import com.twitter.util.{Duration, Time}
 import com.twitter.util.TimeConversions.intToTimeableNumber
 
+// TODO this api blows but I want to have all of these things eventually, turn these into TODOs
 trait Periodic { self: Pattern =>
   abstract override def period: Duration
 }

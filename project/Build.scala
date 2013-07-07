@@ -9,6 +9,10 @@ object Sundial extends Build {
     crossScalaVersions := Seq("2.9.3", "2.10.2")
   )
 
+  val testDeps = Seq(
+    "org.scalatest" %% "scalatest" % "1.9.1" % "test"
+  )
+
   lazy val sundial = Project(
     id = "sundial",
     base = file(".")
@@ -23,6 +27,7 @@ object Sundial extends Build {
       base = file(string)
     )
       .settings(sharedSettings: _*)
+      .settings(libraryDependencies ++= testDeps)
   }
 
   lazy val core = project("core")
