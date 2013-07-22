@@ -15,3 +15,8 @@
 1. make periodic things easy
 2. specify starting time separately
 3. specify ending time separately
+
+## api integrations
+1. should interoperate with retries
+2. should interoperate with gcalendar
+3. should interoperate with cron

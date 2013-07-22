@@ -26,6 +26,8 @@ trait Schedule extends Iterable[Time] {
 
     override def hasNext: Boolean = schedule != Schedule.Empty
   }
+
+  def eager: Schedule = new SeqSchedule(toSeq)
 }
 
 class SeqSchedule(seq: Seq[Time]) extends Schedule {
